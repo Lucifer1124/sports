@@ -1,0 +1,209 @@
+body{
+    
+}
+
+.bg{
+    background-color: black;
+    border-color: white;
+   
+}
+.nav-item:hover{
+    background-color: rgb(42, 133, 84);
+    border-radius: 8%;
+    transition-duration: 0.2s;
+}
+.nav-item:active{
+    background-color: rgb(42, 133, 84);
+    border-radius: 8%;
+    transition-duration: 0.2s;
+}
+.bgg:hover{
+    
+    background-color: rgb(42, 133, 84);
+    border-radius: 8%;
+    transition-duration: 0.2s;
+    
+}
+.row{
+    display: grid;
+    grid-template-columns: 20% 50% 30%;
+    height: 80px;
+    align-items: center;
+}
+.Latest{
+    
+    display:grid;
+    grid-template-columns: 20% 20% 20% 20% 19.5%;
+    height: 410px;
+    padding-top: 50px;
+    margin-left: 5px;
+   
+    
+    align-items: center;
+    
+    
+}
+.nd{
+    
+    display: grid;
+    grid-template-columns: 65% 35%;
+    
+    
+}
+
+
+.container{
+    align-items: center;
+   
+   
+   padding:20px;
+  
+    
+}
+.roww{
+     display:grid;
+    grid-template-columns: 50% 50%;
+     align-items: center;
+}
+.abc{
+   
+    margin-bottom: 10px;
+    width: 90px;
+    margin-left: 80px;
+}
+.abcd{
+    margin-left: 8px;
+}
+.container:hover{
+   
+    
+    
+   
+    
+     box-shadow: 2px 2px 2px 2px darkgrey;
+     
+   transition-duration: 0.3s;
+   
+    
+}
+
+.text{
+    margin-left: 60px;
+}
+.wrapper{
+    border-width: 5px;
+    border-style: solid;
+    border-color: black;
+    height: 450px;
+    align-content: center;
+   
+}
+.reg-container{
+    
+    display: grid;
+    grid-template-columns: 38% 24% 38%;
+    
+}
+.form{
+    
+    border-width: 6px;
+    border-color: white;
+    border-style: solid;
+   
+    background-color: black;
+    opacity: 85%;
+    color:white;
+}
+.input-box,.policy{
+    margin-left: 30px;
+    padding-top: 25px;
+   
+    
+    
+}
+.inn{
+    width: 285px;
+    height: 50px;
+    
+    
+
+}
+.inn:active{
+    border-color: cyan;
+    border-style:solid;
+    
+}
+.imghover{
+    
+    border-style: double;
+    border-color: grey;
+    border-width: 5px;
+    
+    
+}
+
+.heading{
+    text-align: center; color: darkgray; margin-top: 100px;
+    text-shadow: 2px 2px 2px darkgrey;
+    
+    
+    
+}
+.submit{
+    width: 100px;
+    border-radius: 5%;
+}
+.submit:hover
+{
+    background-color: white;
+    colour: darkgrey;
+}
+.navy{
+    display:grid;
+    grid-template-columns: 20% 45% 40%;
+   
+    
+    
+    
+}
+    body{
+ font-family: impact,sans-serif;
+}
+body{
+    color: green;
+}
+.container2{
+     display:grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    height: 410px;
+    padding-top: 50px;
+    margin-left: 5px;
+   
+    
+    align-items: center;
+}
+.view{
+    display: grid;
+    grid-template-columns: 600px 600px;
+    height: 700px;
+    background-color: black;
+}
+
+
+
+
+
+
+
+
+
+ 
+             
+
+
+
+
+
+
+
+

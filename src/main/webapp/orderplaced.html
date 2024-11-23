@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Orders Placed</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: rgb(249,246,238);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+        .container {
+            width: 80%;
+            max-width: 800px;
+            background: white;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+            border-radius: 8px;
+            padding: 20px;
+            text-align: center;
+        }
+        .header {
+            font-size: 24px;
+            font-weight: bold;
+            color: #2874f0;
+            margin-bottom: 10px;
+        }
+        .product {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-bottom: 20px;
+        }
+        .product img {
+            width: 100px;
+            height: 100px;
+            margin-right: 20px;
+            border-radius: 8px;
+        }
+        .details {
+            text-align: left;
+        }
+        .status {
+            font-size: 18px;
+            color: rgb(50,205,50);
+            margin-top: 10px;
+        }
+        .no button {
+            background-color: #ff4d4d; 
+            color: white; 
+            border: none; 
+            border-radius: 15px;
+            padding: 10px 20px;
+            font-size: 16px;
+            cursor: pointer;
+            transition: background-color 0.3s, transform 0.2s;
+        }
+        
+        .no button:hover {
+            background-color: #e60000; 
+            transform: scale(1.10); 
+        }
+        
+        .no button:active {
+            background-color: #cc0000;
+            transform: scale(1);
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">Order Placed Successfully</div>
+        <div class="product">
+            <img src="726455.png" alt="Product Image">
+            <div class="details">
+                <p><strong>Product Name:</strong> Awesome Gadget</p>
+                <p><strong>Price:</strong> ₹1999</p>
+                <p><strong>Order Date:</strong> 18-Nov-2024</p>
+            </div>
+            
+        </div>
+        <p class="status">Delivery between 2-3 working days</p>
+        <div class="no">
+            <button>Cancel Order</button>
+        </div> 
+    </div> 
+</body>
+</html>

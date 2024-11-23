@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Orders Shipped</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: rgb(249,246,238);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+        .container {
+            width: 80%;
+            max-width: 800px;
+            background: white;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 1);
+            border-radius: 8px;
+            padding: 20px;
+            text-align: center;
+        }
+        .header {
+            font-size: 24px;
+            font-weight: bold;
+            color: rgb(65,105,225);
+            margin-bottom: 10px;
+        }
+        .product {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-bottom: 20px;
+        }
+        .product img {
+            width: 100px;
+            height: 100px;
+            margin-right: 20px;
+            border-radius: 8px;
+        }
+        .details {
+            text-align: left;
+        }
+        .status {
+            font-size: 18px;
+            color: rgb(100,149,237);
+            margin-top: 10px;
+        }
+        .yes button {
+            background-color: rgb(11,218,81); 
+            color: white; 
+            border: none; 
+            border-radius: 15px;
+            padding: 10px 20px;
+            font-size: 16px;
+            cursor: pointer;
+            transition: background-color 0.3s, transform 0.2s;
+        }
+        
+        .yes button:hover {
+            background-color:rgb(76,187,23); 
+            transform: scale(1.10); 
+        }
+        
+        .yes button:active {
+            background-color: rgb(0,163,96);
+            transform: scale(1);
+        }
+    
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">Delivered Successfully</div>
+        <div class="product">
+            <img src="726455.png" alt="Product Image">
+            <div class="details">
+                <p><strong>Product Name:</strong> Awesome Gadget</p>
+                <p><strong>Price:</strong> ₹1999</p>
+                <p><strong>Order Date:</strong> 18-Nov-2024</p>
+            </div>
+        </div>
+        <p class="status">Thanks for choosing us, Hope you had a great experience</p>
+        <div class="yes">
+            <button>Continue Shopping</button>
+        </div> 
+    </div>
+</body>
+</html>
